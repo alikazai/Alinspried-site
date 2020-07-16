@@ -1,2 +1,12 @@
+// base
+@import "./base/variables";
+
 // 3rd Party Plugins
 @import "~bootstrap/scss/bootstrap";
+
+// Layout
+@import "./layout/header";
+@import "./layout/footer";
+
+
+// Components

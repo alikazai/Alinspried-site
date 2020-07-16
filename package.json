@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/alikazai/Alinspried-site#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0-alpha1",
-    "node-sass": "^4.14.1",
-    "yarn": "^1.22.4"
+    "bootstrap": "^5.0.0-alpha1"
   },
   "devDependencies": {
     "css-loader": "^3.6.0",
@@ -29,6 +27,8 @@
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "node-sass": "^4.14.1",
+    "yarn": "^1.22.4"
   }
 }
