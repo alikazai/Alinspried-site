@@ -1,3 +1,5 @@
+import "../styles/index.scss";
+
 // FIXME: Remove later as its not needed
 import _ from 'lodash';
 
