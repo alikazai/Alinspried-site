@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "dev": "webpack-dev-server --mode development --open --config webpack.config.js",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch"
   },
@@ -21,14 +22,23 @@
     "bootstrap": "^5.0.0-alpha1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^3.6.0",
+    "eslint": "^7.5.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^4.3.0",
     "lodash": "^4.17.19",
+    "node-sass": "^4.14.1",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
-    "node-sass": "^4.14.1",
+    "webpack-dev-server": "^3.11.0",
     "yarn": "^1.22.4"
   }
 }
